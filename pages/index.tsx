@@ -12,19 +12,19 @@ import code from '../public/code.png';
 const projects = [
   {
     href: 'https://wilpoymu.github.io/Mathjs-Api/',
-    image: '/Pages/MathJS-Api.png',
+    image: '/Portfolio/Pages/MathJS-Api.png',
     title: 'MathJS API',
     desc: 'React + API consumption. Clean UI and input validation.',
   },
   {
     href: 'https://wilpoymu.github.io/QR-code/',
-    image: '/Pages/QR-code.png',
+    image: '/Portfolio/Pages/QR-code.png',
     title: 'QR Code',
     desc: 'Simple generator. Focus on UX and responsiveness.',
   },
   {
     href: 'https://wilpoymu.github.io/TechNews/',
-    image: '/Pages/Tech-News.png',
+    image: '/Portfolio/Pages/Tech-News.png',
     title: 'Tech News',
     desc: 'API news feed with cards and hover states.',
   },
@@ -68,7 +68,7 @@ export default function Home(): React.JSX.Element {
             </button>
             <a
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
-              href="/cv/Wilfer_Zuluaga_CV_2025-08.pdf"
+              href="/Portfolio/cv/Wilfer_Zuluaga_CV_2025-08.pdf"
               download
               rel="noopener noreferrer"
             >
