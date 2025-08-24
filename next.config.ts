@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio',
   images: {
     unoptimized: true
   }
